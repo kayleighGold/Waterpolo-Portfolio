@@ -1,16 +1,9 @@
 import React from "react";
-import "../assets/vendor/aos/aos.css";
-import "../assets/vendor/bootstrap/css/bootstrap.min.css";
-import "../assets/vendor/bootstrap-icons/bootstrap-icons.css" ;
-import "../assets/vendor/boxicons/css/boxicons.min.css";
-import "../assets/vendor/glightbox/css/glightbox.min.css";
-import "../assets/vendor/swiper/swiper-bundle.min.css";
 
 export default function About () {
     return (
         <section id="about" class="about">
             <div class="container" data-aos="fade-up">
-
                 <div class="section-title">
                 <h2>About</h2>
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
@@ -50,8 +43,7 @@ export default function About () {
                     </p>
                 </div>
                 </div>
-
             </div>
-            </section>
+        </section>
     );
 }
