@@ -1,4 +1,5 @@
 import React from "react";
+import Skills from "./Skills";
 
 export default function About () {
     return (
@@ -11,7 +12,7 @@ export default function About () {
 
                 <div class="row">
                 <div class="col-lg-4">
-                    <img src="assets/img/profile-img.jpg" class="img-fluid" alt=""/>
+                    <img src="../assets/img/profile-img.jpg" class="img-fluid" alt=""/>
                 </div>
                 <div class="col-lg-8 pt-4 pt-lg-0 content">
                     <h3>UI/UX Designer &amp; Web Developer.</h3>

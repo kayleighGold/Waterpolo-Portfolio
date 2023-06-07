@@ -2,8 +2,9 @@ import React from "react";
 import ProgressBar from "./Progress";
 
 export default function Skills (){
+    
     return (
-        <section id="skills" class="skills section-bg">
+        <section id="skills" class="skills section-bg bg-light">
           <div class="container" data-aos="fade-up">
                 <div class="section-title">
                   <h2>Skills</h2>
@@ -11,9 +12,9 @@ export default function Skills (){
                 </div>
                 <div class="row skills-content">    
                   <div class="col-lg-6">
-                    <ProgressBar skill= {"Html"} progress={90} />
-                    <ProgressBar skill= {"CSS"} progress={75} />
-                    <ProgressBar skill={"Bootstrap"} progress={60} />
+                    <ProgressBar skill= {"Html"} progress={1.5} timeFrame={" yrs"}/>
+                    <ProgressBar skill= {"CSS"} progress={1} timeFrame={" yr"}/>
+                    <ProgressBar skill={"Bootstrap"} progress={1} timeFrame={" yr"}/>
                   </div>
                   <div class="col-lg-6">
                     <ProgressBar skill={"PHP"} progress={80} />
