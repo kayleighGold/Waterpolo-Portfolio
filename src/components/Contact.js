@@ -2,17 +2,17 @@ import React from "react";
 
 export default function Contact (){
     return (
-        <section id="contact" class="contact">
+        <section id="contact" class="contact bg-light">
             <div class="container" data-aos="fade-up">
 
-                <div class="section-title">
+                <div class="section-title bg-light">
                 <h2>Contact</h2>
                 </div>
 
                 <div class="row mt-1">
 
-                <div class="col-lg-4">
-                    <div class="info">
+                <div class="col-lg-4 ">
+                    <div class="info bg-light">
                     <div class="address">
                         <i class="bi bi-geo-alt"></i>
                         <h4>Location:</h4>
@@ -35,9 +35,9 @@ export default function Contact (){
 
                 </div>
 
-                <div class="col-lg-8 mt-5 mt-lg-0">
+                <div class="col-lg-8 mt-5 mt-lg-0 bg-light">
 
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form bg-light">
                     <div class="row">
                         <div class="col-md-6 form-group">
                         <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required/>

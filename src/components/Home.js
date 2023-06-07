@@ -6,7 +6,7 @@ export default function Home(){
 
     React.useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ["Software Development", "Cybersecurity", "Mathmatics"],
+            strings: ["Software Development", "Cybersecurity", "Mathematics"],
             loop: true,
             typeSpeed: 100,
             backSpeed: 50,
@@ -24,7 +24,7 @@ export default function Home(){
                 <h1>Connor Goldschmidt</h1>
                 <p><span class="typed" ref={el}></span></p>
                 <div class="social-links">
-                <a href="#" class="gmail"><i class="bx bxl-gmail"></i></a>
+                    <a href="#" class="gmail"><i class="bx bxl-gmail"></i></a>
                     <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
                     <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                     <a href="#" class="github"><i class="bx bxl-github"></i></a>

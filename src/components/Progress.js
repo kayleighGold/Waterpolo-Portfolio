@@ -12,7 +12,18 @@ export default function ProgressBar(props){
             <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow={progress} aria-valuemin={50} aria-valuemax={100} ref={el}> 
                 <Waypoint
-                    onEnter={() => el.current.style.width = String(progress) + "%"}
+                    onEnter={() => {
+                        switch(timeFrame){
+                            case "Months" || "Month":
+                                el.current.style.width = String((progress / 48.0) * 100) + "%";
+                                break;
+                            default:
+                                el.current.style.width = String((progress / 4.0) * 100) + "%";
+                                break;
+                            }
+                        }
+                    }
+                    onLeave={() => el.current.style.width = "0%"}
                 />       
                 </div>
             </div>
