@@ -1282,6 +1282,41 @@ section {
   font-size: 13px;
 }
 
+/*
+# Portfolio Item
+*/
+.portfolioItem .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.portfolioItem .progress .skill {
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #45505b;
+}
+
+.portfolioItem .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.portfolioItem .progress-bar-wrap {
+  background: #f2f3f5;
+}
+
+.portfolioItem .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #006400;
+}
 
 .close {  
   cursor: pointer;  
@@ -1295,4 +1330,52 @@ section {
   background: #ffffff;  
   border-radius: 18px;  
   border: 1px solid #cfcece;
+}
+
+/*
+  Accordion 
+*/
+.accordion {
+  list-style: none;
+}
+
+.accordion_item {
+  border-top: 1px solid #9f9f9f;
+}
+
+.button {
+  font-size: 16px;
+  color: #45505b;
+  background-color: rgba(f, f, f, 0.8);
+  text-align: left;
+  font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.control {
+  font-size: 20px;
+}
+
+.answer {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+/* activate toggle */
+.accordion_item.active .button {
+  background-color: #006400;
+  color: #fff;
+}
+
+.answer_wrapper {
+  height: 0;
+  overflow: hidden;
+  transition: height ease 0.2s;
 }
