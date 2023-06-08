@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
+import PropTypes from 'prop-types';
 
-export default function PortfolioItem(props){
-    const {Title, Desc,Image} = props;
+
+export default function PortfolioItem({closeFunc, children}){
     return (
         <div>
-            <div class="rounded-circle" alt="Generic placeholder image" width="140" height="140"><i class={"bx bx-lg bx-" + Image}></i></div>
-            <h2><b>{Title}</b></h2>
-            <p>{Desc}</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+            <button className="close" onClick={closeFunc}>            
+                &times;          
+            </button>
+            {children}
         </div>
     );
+}
+
+PortfolioItem.propTypes = {
+    children: PropTypes.oneOfType([
+      PropTypes.arrayOf(PropTypes.element), 
+      PropTypes.element.isRequired
+    ]),
 }

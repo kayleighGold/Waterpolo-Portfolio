@@ -19,7 +19,7 @@ export default function Home(){
             }, []);
 
         return (
-            <section id="hero" class="d-flex flex-column justify-content-center">
+            <section id="home" class="d-flex flex-column justify-content-center">
                 <div class="container">
                 <h1>Connor Goldschmidt</h1>
                 <p><span class="typed" ref={el}></span></p>

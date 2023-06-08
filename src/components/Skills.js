@@ -8,7 +8,7 @@ export default function Skills (){
           <div class="container" data-aos="fade-up">
                 <div class="section-title">
                   <h2>Skills</h2>
-                  <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                  <p>I do my best to stay on top of cybersecurity to keep digital spaces secure, and I enjoy dabbling in software development, creating programs that hopefully make a positive impact. I also have a decent grasp of mathematics, which comes in handy when tackling tricky problems.</p>
                 </div>
                 <div class="row skills-content">    
                   <div class="col-lg-6">

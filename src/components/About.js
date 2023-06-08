@@ -22,7 +22,7 @@ export default function About () {
                     <div class="row">
                     <div class="col-lg-6">
                         <ul>
-                        <li><i class="bi bi-chevron-right"></i> <strong>LinkedIn:</strong> <span>+123 456 7890</span></li>
+                        <li><i class="bi bi-chevron-right"></i> <strong>LinkedIn:</strong> <span><a class="link-offset-2 link-underline link-underline-opacity-0" href="https://www.linkedin.com/in/connor-goldschmidt/">connor-goldschmidt</a></span></li>
                         <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>cgoldschmidt04@gmail.com</span></li>
                         <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Spokane, WA</span></li>
                         </ul>
