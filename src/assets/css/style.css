@@ -22,7 +22,7 @@ a {
 }
 
 a:hover {
-  color: #067ded;
+  color: #45505b;
   text-decoration: none;
 }
 
@@ -779,7 +779,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #148af9;
+  color: #45505b;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -931,7 +931,7 @@ section {
 }
 
 .services .iconbox-blue i {
-  color: #47aeff;
+  color: #45505b;
 }
 
 .services .iconbox-blue:hover .icon i {
@@ -1209,7 +1209,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #0678e3;
+  background: #45505b;
 }
 
 @keyframes animate-loading {
@@ -1269,7 +1269,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
+  background: #45505b;
   color: #fff;
   text-decoration: none;
 }
@@ -1330,6 +1330,12 @@ section {
   background: #ffffff;  
   border-radius: 18px;  
   border: 1px solid #cfcece;
+}
+
+.accordion-container{
+  height: 300px;
+  max-height: 40%;
+  overflow-y: auto;
 }
 
 /*
