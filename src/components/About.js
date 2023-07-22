@@ -16,8 +16,7 @@ export default function About () {
                 <div className="col-lg-8 pt-4 pt-lg-0 content">
                     <h3>Computer Science Student &amp; Software Developer.</h3>
                     <p className="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                    Computer Science B.S. | Concentration in Software Security | Minor in Mathematics at Gonzaga University
                     </p>
                     <div className="row">
                         <div className="col-lg-6">
@@ -36,8 +35,7 @@ export default function About () {
                         </div>
                     </div>
                     <p>
-                        Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                        Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+                    Hi! I’m Connor an enthusiastic computer science student and software developer with a passion for technology. My experiences with personal projects, academics, and industry, have cultivated my passion and my goal is to pursue a career in this ever-evolving field. Throughout my journey, I've gained expertise in data structures, algorithms, and programming languages. I enjoy collaborating with diverse teams to create innovative solutions that positively impact people's lives. My portfolio showcases a range of projects, from web and mobile applications to software tools. I take pride in writing clean, scalable code and have a keen interest in cybersecurity and mathematics. 
                     </p>
                 </div>
                 </div>

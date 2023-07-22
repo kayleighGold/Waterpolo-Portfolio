@@ -24,10 +24,9 @@ export default function Home(){
                 <h1>Connor Goldschmidt</h1>
                 <p><span class="typed" ref={el}></span></p>
                 <div class="social-links">
-                    <a href="#" class="gmail"><i class="bx bxl-gmail"></i></a>
-                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                    <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                    <a href="#" class="github"><i class="bx bxl-github"></i></a>
+                    <a href="mailto:cgoldschmidt04@gmail.com" class="gmail"><i class="bx bxl-gmail"></i></a>
+                    <a href="https://www.linkedin.com/in/connor-goldschmidt/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://github.com/cgold264" class="github" target="_blank"><i class="bx bxl-github"></i></a>
                 </div>
                 </div>
             </section>

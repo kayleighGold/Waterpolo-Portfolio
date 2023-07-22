@@ -9,12 +9,54 @@ export default function Portfolio(){
     const [open, setOpen] = useState(null);  
     const closeModal = () => setOpen(null);
 
+    const mathClasses = [
+        {
+            title: "Discrete Structures",
+            description:
+              "A study of propositional logic, set theory, functions, algorithms, divisibility, introductory number theory, elementary proof techniques, counting techniques, recursive definitions, mathematical induction, and graph theory.",
+        },
+        {
+            title: "Stats for Experimentalists",
+            description:
+              "An applied statistics course for those with calculus preparation. Descriptive statistics, probability theory, discrete and continuous random variables, and methods of inferential statistics including interval estimation, hypothesis testing, and regression.",
+        },
+        {
+          title: "Calculus III",
+          description:
+            "A treatment of multivariable calculus and the calculus of vector fields. Topics include: vectors and vector-valued functions, partial derivatives, multiple integration, curl and divergence, line integrals, Green’s theorem, Stokes’ theorem, and the Divergence theorem. ",
+        },
+        {
+          title: "Calculus II",
+          description:
+            "A continuation of Calc I. Topics covered are: techniques of integration, applications of the integral, improper integrals, sequences and infinite series with an introduction to convergence tests, parametric equations, and polar coordinates.",
+        },
+        {
+          title: "Calculus I",
+          description:
+            "An introduction to calculus for engineering, science and mathematics students, with an emphasis on conceptual understanding, problem solving, and modeling. Topics covered include: limits, continuity, derivatives of algebraic, trigonometric, and transcendental functions, applications of the derivative including optimization problems and linear approximations, antiderivatives, introduction to the definite integral, and the Fundamental Theorem of Calculus. ",
+        },
+      ];
+
+    const cybersecurity = [
+        {
+            title: "Spokane Mayors Cup",
+            description: "A regional cybersecurity event focused on developing cybersecurity talent in Washington. Competed with peers to penetrate various virtual machines and challenges.",
+            link: "https://spokanectf.github.io/",
+            linkDes: "SMC Github"
+        },
+        {
+            title: "Hack the Box Penetration Test",
+            description: 'Final Project Report for Gonzaga course "Cyber Security Project Lab" where I was tasked to compromise a virtual macine of my choice. ',
+            // link: "../assets/connor.goldschmidt_final.pdf",
+            // linkDes: "Report"
+        }
+    ];
+
     return (
         <section id="portfolio" class="portfolio section-bg bg-light">
         <div class="container" data-aos="fade-up">
             <div class="section-title">
             <h2>Portfolio</h2>
-            <p>My portfolio encompasses a diverse range of projects in cybersecurity, software development, and mathematics. Overall, my portfolio showcases my multidisciplinary skills and my dedication to creating secure, efficient, and innovative solutions.</p>
             </div>
                 <div class="row">
                     <div class="col-lg-4 text-center my-3">
@@ -39,7 +81,14 @@ export default function Portfolio(){
                                     <div class="container" data-aos="fade-up">
                                             <div class="section-title">
                                                 <h2>Cybersecurity</h2>
-                                                <p>I do my best to stay on top of cybersecurity to keep digital spaces secure, and I enjoy dabbling in software development, creating programs that hopefully make a positive impact. I also have a decent grasp of mathematics, which comes in handy when tackling tricky problems.</p>
+                                                <p>
+                                                My journey in cybersecurity has equipped me with specialized skills in penetration testing, networking, and industry standards, empowering me to safeguard systems and networks effectively.
+                                                </p>
+                                            </div>
+                                            <div className="row my-3 skills-content">
+                                                <div className="accordion-container">
+                                                    <Accordion items={cybersecurity} />
+                                                </div>
                                             </div>
                                             <div class="row skills-content">    
                                                 <div class="col-lg-6">
@@ -51,6 +100,7 @@ export default function Portfolio(){
                                                     <ProgressBar skill={"Networking/Networking tools"} progress={1} timeFrame={"Year"}/> 
                                                 </div>
                                             </div>
+                                            
                                         </div>
                                     </section>
                                 </PortfolioItem> 
@@ -78,23 +128,28 @@ export default function Portfolio(){
                                 <section id="Software" class="skills section-bg bg-light">
                                     <div class="container" data-aos="fade-up">
                                             <div class="section-title">
-                                            <h2>Software Development</h2>
-                                            <p>I do my best to stay on top of cybersecurity to keep digital spaces secure, and I enjoy dabbling in software development, creating programs that hopefully make a positive impact. I also have a decent grasp of mathematics, which comes in handy when tackling tricky problems.</p>
+                                                <h2>Software Development</h2>
+                                                <p>
+                                                With a focus on software development, I've cultivated proficiencies in agile development methodologies, a wide array of programming languages, and advanced knowledge of data structures and algorithms, enabling me to create robust and efficient software solutions.
+                                                </p>
                                             </div>
+
+                                            
                                             <div class="row skills-content">    
-                                            <div class="col-lg-6">
-                                                <ProgressBar skill= {"C++"} progress={3} timeFrame={"Years"}/>
-                                                <ProgressBar skill= {"Java"} progress={3} timeFrame={"Years"}/>
-                                                <ProgressBar skill={"Python/Django"} progress={1} timeFrame={"Year"}/>
-                                                <ProgressBar skill={"Kotlin"} progress={6} timeFrame={"Months"}/>
+                                                <div class="col-lg-6">
+                                                    <ProgressBar skill= {"C++"} progress={3} timeFrame={"Years"}/>
+                                                    <ProgressBar skill= {"Java"} progress={3} timeFrame={"Years"}/>
+                                                    <ProgressBar skill={"Python/Django"} progress={1} timeFrame={"Year"}/>
+                                                    <ProgressBar skill={"Kotlin"} progress={6} timeFrame={"Months"}/>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <ProgressBar skill={"Git/Github"} progress={3} timeFrame={"Years"}/>
+                                                    <ProgressBar skill={"Bootstrap"} progress={6} timeFrame={"Months"}/>
+                                                    <ProgressBar skill={"HTML/CSS"} progress={1} timeFrame={"Year"}/>
+                                                    <ProgressBar skill={"Javascript/ReactJS"} progress={6} timeFrame={"Months"}/>
+                                                </div>
                                             </div>
-                                            <div class="col-lg-6">
-                                                <ProgressBar skill={"Git/Github"} progress={3} timeFrame={"Years"}/>
-                                                <ProgressBar skill={"Bootstrap"} progress={6} timeFrame={"Months"}/>
-                                                <ProgressBar skill={"HTML/CSS"} progress={1} timeFrame={"Year"}/>
-                                                <ProgressBar skill={"Javascript/ReactJS"} progress={6} timeFrame={"Months"}/>
-                                            </div>
-                                            </div>
+                                            
                                         </div>
                                     </section>
                                 </PortfolioItem>
@@ -123,10 +178,12 @@ export default function Portfolio(){
                                     <div class="portfolio-container" data-aos="fade-up">
                                             <div class="section-title">
                                             <h2>Math</h2>
-                                            <p>I do my best to stay on top of cybersecurity to keep digital spaces secure, and I enjoy dabbling in software development, creating programs that hopefully make a positive impact. I also have a decent grasp of mathematics, which comes in handy when tackling tricky problems.</p>
+                                            <p>
+                                            My education has provided me with a strong foundation in mathematics, and my minor in the subject has further deepened my proficiency, equipping me with advanced analytical and problem-solving skills that I apply effectively in various areas of computer science, including software development and cybersecurity.
+                                                </p>
                                             </div>
                                             <div class="accordion-container">
-                                                <Accordion />
+                                                <Accordion items={mathClasses} />
                                             </div>
                                         </div>
                                     </section>
