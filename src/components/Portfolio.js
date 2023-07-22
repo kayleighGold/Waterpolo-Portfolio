@@ -17,7 +17,7 @@ export default function Portfolio(){
             <p>My portfolio encompasses a diverse range of projects in cybersecurity, software development, and mathematics. Overall, my portfolio showcases my multidisciplinary skills and my dedication to creating secure, efficient, and innovative solutions.</p>
             </div>
                 <div class="row">
-                    <div class="col-lg-4 text-center">
+                    <div class="col-lg-4 text-center my-3">
                         <div class="rounded-circle" alt="Generic placeholder image" width="140" height="140"><i class="bx bx-lg bx-terminal"></i></div>
                         <h2><b>Cybersecurity</b></h2>
                         <p>Cyber security credials and Projects.</p>
@@ -56,7 +56,7 @@ export default function Portfolio(){
                                 </PortfolioItem> 
                         </Popup>
                     </div>
-                    <div class="col-lg-4 text-center">
+                    <div class="col-lg-4 text-center my-3">
                         <div class="rounded-circle" alt="Generic placeholder image" width="140" height="140"><i class="bx bx-lg bx-code"></i></div>
                         <h2><b>Software Development</b></h2>
                         <p>Skills and Projects.</p>
@@ -64,7 +64,8 @@ export default function Portfolio(){
                         <Popup 
                             contentStyle={{
                                 borderRadius: "5px",
-                                minWidth: "90%",
+                                width: "90%",
+                                maxHeight: "100%",
                             }}
                             closeOnDocumentClick
                             onClose={closeModal}
@@ -99,7 +100,7 @@ export default function Portfolio(){
                                 </PortfolioItem>
                         </Popup>
                     </div>
-                    <div class="col-lg-4 text-center">
+                    <div class="col-lg-4 text-center my-3">
                         <div class="rounded-circle" alt="Generic placeholder image" width="140" height="140"><i class="bx bx-lg bx-math"></i></div>
                         <h2><b>Mathematics</b></h2>
                         <p>Skills and Classes.</p>
@@ -107,7 +108,8 @@ export default function Portfolio(){
                         <Popup 
                             contentStyle={{
                                 borderRadius: "5px",
-                                minWidth: "90%",
+                                width: "90%",
+                                maxHeight: "100%",
                             }}
                             open={open === "Math"}
                             closeOnDocumentClick
@@ -117,8 +119,8 @@ export default function Portfolio(){
                             repositionOnResize={true}
                             >
                                 <PortfolioItem closeFunc={closeModal}>
-                                <section id="mathematics" class="skills bg-light col-12">
-                                    <div class="container" data-aos="fade-up">
+                                <section id="mathematics" class="portfolio-container bg-light col-12">
+                                    <div class="portfolio-container" data-aos="fade-up">
                                             <div class="section-title">
                                             <h2>Math</h2>
                                             <p>I do my best to stay on top of cybersecurity to keep digital spaces secure, and I enjoy dabbling in software development, creating programs that hopefully make a positive impact. I also have a decent grasp of mathematics, which comes in handy when tackling tricky problems.</p>

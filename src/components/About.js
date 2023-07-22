@@ -20,24 +20,24 @@ export default function About () {
                     magna aliqua.
                     </p>
                     <div className="row">
-                    <div className="col-lg-6">
-                        <ul>
-                        <li><i className="bi bi-chevron-right"></i> <strong>LinkedIn:</strong> <span><a className="link-offset-2 link-underline link-underline-opacity-0" href="https://www.linkedin.com/in/connor-goldschmidt/">connor-goldschmidt</a></span></li>
-                        <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>cgoldschmidt04@gmail.com</span></li>
-                        <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Spokane, WA</span></li>
-                        </ul>
-                    </div>
-                    <div className="col-lg-6">
-                        <ul>
-                        <li><i className="bi bi-chevron-right"></i> <strong>University:</strong> <span>Gonzaga</span></li>
-                        <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Computer Science (BS)</span></li>
-                        <li><i className="bi bi-chevron-right"></i> <strong>Minor:</strong> <span>Mathematics</span></li>
-                        </ul>
-                    </div>
+                        <div className="col-lg-6">
+                            <ul>
+                            <li><i className="bi bi-chevron-right"></i> <strong>LinkedIn:</strong> <span><a className="link-offset-2 link-underline link-underline-opacity-0" href="https://www.linkedin.com/in/connor-goldschmidt/">connor-goldschmidt</a></span></li>
+                            <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>cgoldschmidt04@gmail.com</span></li>
+                            <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Spokane, WA</span></li>
+                            </ul>
+                        </div>
+                        <div className="col-lg-6">
+                            <ul>
+                                <li><i className="bi bi-chevron-right"></i> <strong>University:</strong> <span>Gonzaga</span></li>
+                                <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Computer Science (BS)</span></li>
+                                <li><i className="bi bi-chevron-right"></i> <strong>Minor:</strong> <span>Mathematics</span></li>
+                            </ul>
+                        </div>
                     </div>
                     <p>
-                    Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                    Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+                        Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+                        Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
                     </p>
                 </div>
                 </div>

@@ -1333,10 +1333,19 @@ section {
 }
 
 .accordion-container{
-  height: 300px;
-  max-height: 40%;
+
+  height: 200px;
+  max-height: 20%;
   overflow-y: auto;
 }
+
+.portfolio-container {
+  max-height: 70%;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
 
 /*
   Accordion 
