@@ -23,7 +23,7 @@ export default function Portfolio(){
         {
           title: "Calculus III",
           description:
-            "A treatment of multivariable calculus and the calculus of vector fields. Topics include: vectors and vector-valued functions, partial derivatives, multiple integration, curl and divergence, line integrals, Green’s theorem, Stokes’ theorem, and the Divergence theorem. ",
+            "A treatment of multi-variable calculus and the calculus of vector fields. Topics include: vectors and vector-valued functions, partial derivatives, multiple integration, curl and divergence, line integrals, Green’s theorem, Stokes’ theorem, and the Divergence theorem. ",
         },
         {
           title: "Calculus II",
@@ -62,7 +62,7 @@ export default function Portfolio(){
                     <div class="col-lg-4 text-center my-3">
                         <div class="rounded-circle" alt="Generic placeholder image" width="140" height="140"><i class="bx bx-lg bx-terminal"></i></div>
                         <h2><b>Cybersecurity</b></h2>
-                        <p>Cyber security credials and Projects.</p>
+                        <p>Cyber Security Credentials and Projects.</p>
                         <button class="btn btn-secondary" onClick={() => setOpen("Security")}>View details »</button>
                         <Popup 
                             contentStyle={{
