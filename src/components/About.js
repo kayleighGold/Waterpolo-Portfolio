@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function About () {
-    var profileImage = require("../assets/img/profile-img.jpg");
+    var profileImage = require("../assets/img/IMG_3462.jpg");
     return (
         <section id="about" className="about bg-light">
             <div className="container" data-aos="fade-up">
@@ -14,23 +14,21 @@ export default function About () {
                     <img src={profileImage} className="img-fluid" alt=""/>
                 </div>
                 <div className="col-lg-8 pt-4 pt-lg-0 content">
-                    <h3>Computer Science Student &amp; Software Developer.</h3>
+                    <h3>Water Polo Player &amp; Highschool Student </h3>
                     <p className="fst-italic">
-                    Computer Science B.S. | Concentration in Software Security | Minor in Mathematics at Gonzaga University
+                    Rocky Mountain Neptunes | Menziehill Whitehall | Dunfermline Water Polo Club
                     </p>
                     <div className="row">
                         <div className="col-lg-6">
                             <ul>
-                            <li><i className="bi bi-chevron-right"></i> <strong>LinkedIn:</strong> <span><a className="link-offset-2 link-underline link-underline-opacity-0" href="https://www.linkedin.com/in/connor-goldschmidt/">connor-goldschmidt</a></span></li>
-                            <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>cgoldschmidt04@gmail.com</span></li>
-                            <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Spokane, WA</span></li>
+                            <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>kay_gold@outlook.com</span></li>
+                            <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Boulder, CO</span></li>
                             </ul>
                         </div>
                         <div className="col-lg-6">
                             <ul>
-                                <li><i className="bi bi-chevron-right"></i> <strong>University:</strong> <span>Gonzaga</span></li>
-                                <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Computer Science (BS)</span></li>
-                                <li><i className="bi bi-chevron-right"></i> <strong>Minor:</strong> <span>Mathematics</span></li>
+                                <li><i className="bi bi-chevron-right"></i> <strong>School:</strong> <span>Holy Family Highschool</span></li>
+                                <li><i className="bi bi-chevron-right"></i> <strong>Future Degree:</strong> <span>Computer Science (BS)</span></li>
                             </ul>
                         </div>
                     </div>
